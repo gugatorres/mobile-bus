@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-selecao {
+    background: #5C88DA;
+    height: 80px;
+}
+
+.footer-onibus {
+    background: #ECECEC;
+    height: 80px;
+    padding-top: 25px;
+}
+
+.area-passageiros {
+    background: #F5F5F5;
+    height: 420px;
+    padding: 20px;
+}
+
+.area-passageiros ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.area-passageiros ul li a {
+    background: #FFF;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: #0000000f 2px 2px 2px;
+}
+
+.listagem-passageiros li span {
+    float: left;
+}
+
+.listagem-passageiros li a {
+    height: 60px;
+}
+
+.header-selecao h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E0263;
+    margin-bottom: 5px;
+}
+
+.header-selecao h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-selecao .assento-volta {
+    font-weight: bold;
+    color: #FFF;
+    width: 160px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.area-passageiros ul li a {
+    color: #999;
+    font-size: 12px;
+}
+
+.listagem-passageiros .tipo-usuario {
+    margin-left: 10px;
+}
+
+.tipo-usuario strong {
+    display: block;
+    color: #5c88da;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.area-passageiros ul li {
+    margin-bottom: 10px;
+}
+
+.listagem-legenda {
+    list-style: none;
+    padding: 0;
+    display: block;
+    margin: 20px auto;
+    width: 620px;
+}
+
+.listagem-legenda li {
+    display: inline-block;
+}
+
+.img-cadeira-leg {
+    float: left;
+}
+
+.tipo-assento {
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.box-onibus {
+    background-image: url(../img-bus.svg);
+    background-repeat: no-repeat;
+    width: 680px;
+    height: 270px;
+    position: relative;
+    margin: auto;
+}
+
+.img-volante {
+    width: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.cadeira-onibus {
+    width: 40px;
+    cursor: pointer;
+}
+
+.cadeira-onibus-leg {
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.st0 {
+    fill: #ECECEC;
+}
+
+.st1 {
+    fill: none;
+    stroke: #717070;
+}
+
+.fileira-onibus {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 75px;
+}
+
+.selected {
+    fill: #ABC5F6;
+}
+
+.cadeira-onibus {
+    position: relative;
+}
+
+.fileira-onibus li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.fil-1 {
+    padding-top: 30px;
+}
+
+.fil-3 {
+    padding-top: 35px;
+}
+
+.number-chair {
+    position: absolute;
+    top: 14px;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.onibus-mobile{
+    transform: rotate(90deg);
+    margin-top: 210px;
+    margin-left: -165px;
+    margin-bottom: 230px;
+}
+
+.number-chair-mobile{
+    transform: rotate(-90deg);
+}
+
+.listagem-legenda-mobile {
+    width: 210px;
+}
+
+.listagem-legenda-mobile li {
+    display: inline-block;
+}
