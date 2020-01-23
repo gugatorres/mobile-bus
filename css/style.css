@@ -185,21 +185,30 @@ body{
     font-size: 12px;
 }
 
-.onibus-mobile{
-    transform: rotate(90deg);
-    margin-top: 210px;
-    margin-left: -165px;
-    margin-bottom: 230px;
-}
 
-.number-chair-mobile{
-    transform: rotate(-90deg);
-}
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        padding: 0;
+    }
 
-.listagem-legenda-mobile {
-    width: 210px;
-}
+    .box-onibus{
+        transform: rotate(90deg);
+        margin-top: 210px;
+        margin-left: -165px;
+        margin-bottom: 230px;
+    }
+    
+    .number-chair{
+        transform: rotate(-90deg);
+    }
+    
+    .listagem-legenda {
+        width: 210px;
+    }
+    
+    .listagem-legenda li {
+        display: inline-block;
+    }
+  }
 
-.listagem-legenda-mobile li {
-    display: inline-block;
-}
